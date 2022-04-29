@@ -24,7 +24,7 @@ def sha1(s):
 
 
 class PCloudApi:
-    baseurl = "https://eapi.pcloud.com"
+    baseurl = "https://api.pcloud.com"
 
     def __init__(self, username, password):
         self.username = username
